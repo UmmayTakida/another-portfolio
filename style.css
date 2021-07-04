@@ -2,18 +2,27 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+div p{
+    padding: 2px;
+    font-size: 24px;
+    text-align: justify;
+}
 h1{
     font-size: 50px;
+    color: red;
     }   
     h2{
         font-size: 40px;
-        }        
+
+        }  
+    h3{
+        font-size: 30px;
+    }  
+ 
 span{
-    color: seagreen;
+    color: green
 }
-section{
-    display: flex;
-}
+
 .half-width{
     width: 50%;
     padding: 2%;
@@ -22,4 +31,60 @@ section{
     width: 95%;
     margin-top: 100px;
     
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.top{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.bottom{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.link-button{
+    background-image: linear-gradient(green, yellow);
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-weight: 700;
+
+}
+.iteam{
+    box-shadow: red 10px 10px 40px;
+    width: 50%;
+    height: 350px;
+    margin-left: 5%;
+    margin-right: 2%;
+    padding-left: 20px;
+    border-radius: 10px;
+    }
+#river{
+    border-left: 10px solid;
+    border-image: linear-gradient(green, red);
+    border-image-slice: 1;
+}
+#his{
+    border-left: 10px solid;
+    border-image: linear-gradient(green, red);
+    border-image-slice: 1;
+}
+#division{
+    border-left: 10px solid;
+    border-image: linear-gradient(green, red);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: blue;
 }
